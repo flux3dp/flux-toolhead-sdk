@@ -12,7 +12,7 @@ There are files to interact with FluxSDK:
 **Quick start**
 * Hardware configuration:
 
-> Connects the Flux delta's extension port "TX" & "RX" to the arduino pro mini "RX1" & "TX1",also the power supply(3.3v and ground) for arduino board.
+> Connect the Flux delta's extension port "TX" & "RX" to the arduino pro mini "RX1" & "TX1",also the power supply(3.3v and ground) for arduino board.
 
 > ![Flux delta extension port](https://github.com/flux3dp/selfdefined_toolhead_example/blob/master/doc/pics/Extension%20Port%20Graphics.png)
 
