@@ -99,7 +99,7 @@ bool CommandClass::command_validate(String command) {
             break;
         }
     }
-    if (find_command_checksum(command) == checksum || 1)
+    if (find_command_checksum(command) == checksum )
         return true;
     else
         return false;
