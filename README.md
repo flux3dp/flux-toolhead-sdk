@@ -1,24 +1,24 @@
 ## Self-defined toolhead example
 **Introduction**
 
-This example is for self-defined toolhead, which develops by using [arduino leonardo](https://www.arduino.cc/en/Main/ArduinoBoardLeonardo), you can use any 
-compatible arduino you like.
+This example is for self-defined toolhead, which develops by using [arduino pro mini 3.3v version](https://www.arduino.cc/en/Main/ArduinoBoardProMini), you can use any 
+compatible arduino board you like.
 
 There are files to interact with FluxSDK:
-* command.h-command class declaration
-* commnad.cpp-command class implement
-* FluxSDK_Example.ino-arduino entrypoint
+* command.h - command class declaration
+* commnad.cpp - command class implement
+* selfdefined_toolhead_example.ino - arduino program entrypoint
 
 **Quick start**
 * Hardware configuration:
 
-> Connects the Flux delta's extension port "TX" & "RX" to the arduino leonardo "RX1" & "TX1",also the power(3.3v) and ground.
+> Connect the Flux delta's extension port "TX" & "RX" to the arduino pro mini "RX1" & "TX1",also the power supply(3.3v and ground) for arduino board.
 
-> ![Flux delta extension port](https://github.com/flux3dp/PrinterHead/blob/master/selfdefinedtoolhead_example/doc/pics/Extension%20Port%20Graphics.png)
+> ![Flux delta extension port](https://github.com/flux3dp/selfdefined_toolhead_example/blob/master/doc/pics/Extension%20Port%20Graphics.png)
 
-> ![](https://www.arduino.cc/en/uploads/Main/ArduinoLeonardoFront_2.jpg)
+> ![](https://github.com/flux3dp/selfdefined_toolhead_example/blob/master/doc/pics/ProMiniFront.jpg)
 
-* Download the [arduino IED](http://www.arduino.cc/en/Main/Software) ,select leonardo board and serialport ,click download the firmware to your arduino and use the FluxSDK to communicate with the new tool head!
+* Download the [arduino IED](http://www.arduino.cc/en/Main/Software) ,select arduino pro mini board and serialport ,click "Upload" to burn the firmware to your arduino and use the [FluxSDK](http://dev.flux3dp.com/tutorials/toolhead_control.html#communicating-with-hardware-extensions) to communicate with the new tool head!
 
 **Funtions**
 * codeSeen() : use it to find command
@@ -61,5 +61,4 @@ There are files to interact with FluxSDK:
 > 1 [COMMNAD] [PARAMETER] [COMMNAD] [PARAMETER] *[CHECKSUM]
 
 > 1 OK [RETURN_VALUE] *[CHECKSUM]
-
 
