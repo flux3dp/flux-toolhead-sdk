@@ -10,10 +10,10 @@ There are files to interact with FluxSDK:
 * selfdefined_toolhead_example.ino - arduino program entrypoint
 
 **Quick start**
-* Hardware configuration:
 
 * Download the [arduino IED](http://www.arduino.cc/en/Main/Software) ,select arduino pro mini board and serialport ,click "Upload" to burn the firmware to your arduino and use the [FluxSDK](http://dev.flux3dp.com/tutorials/toolhead_control.html#communicating-with-hardware-extensions) to communicate with the new tool head!
-* 
+
+* Hardware configuration:
 
 > Connect the Flux delta's extension port "TX" & "RX" to the arduino pro mini "RX1" & "TX1",also the power supply(3.3v and ground) for arduino board.
 
