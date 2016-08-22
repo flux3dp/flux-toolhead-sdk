@@ -22,7 +22,7 @@ There are files to interact with FluxSDK:
 > ![](https://github.com/flux3dp/selfdefined_toolhead_example/blob/master/doc/pics/connection.png)
 
 **Using the FluxSDK**
-> [See the FluxSDK document](http://dev.flux3dp.com/tutorials/toolhead_control.html#communicating-with-hardware-extensions)
+* [See the FluxSDK document](http://dev.flux3dp.com/tutorials/toolhead_control.html#communicating-with-hardware-extensions)
 
 **Funtions**
 * codeSeen() : use it to find command
