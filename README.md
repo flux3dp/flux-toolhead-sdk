@@ -11,16 +11,18 @@ There are files to interact with FluxSDK:
 
 **Quick start**
 
-* Download the [arduino IED](http://www.arduino.cc/en/Main/Software) ,select arduino pro mini board and serialport ,click "Upload" to burn the firmware to your arduino and use the [FluxSDK](http://dev.flux3dp.com/tutorials/toolhead_control.html#communicating-with-hardware-extensions) to communicate with the new tool head!
+* Download the [arduino IDE](http://www.arduino.cc/en/Main/Software) ,select arduino pro mini board and serialport ,click "Upload" to burn the firmware to your arduino and use the [FluxSDK](http://dev.flux3dp.com/tutorials/toolhead_control.html#communicating-with-hardware-extensions) to communicate with the new tool head!
 
 * Hardware configuration:
 
 > Connect the Flux delta's extension port "TX" & "RX" to the arduino pro mini "RX1" & "TX1",also the power supply(3.3v and ground) for arduino board.
 
-> ![Flux delta extension port](https://github.com/flux3dp/selfdefined_toolhead_example/blob/master/doc/pics/Extension%20Port%20Graphics.png)
+> You can plug a led or any ttl component to arduino digital pin 2 and groud , then it would be driven.
 
-> ![](https://github.com/flux3dp/selfdefined_toolhead_example/blob/master/doc/pics/ProMiniFront.jpg)
+> ![](https://github.com/flux3dp/selfdefined_toolhead_example/blob/master/doc/pics/connection.png)
 
+**Using the FluxSDK**
+> [See the FluxSDK document](http://dev.flux3dp.com/tutorials/toolhead_control.html#communicating-with-hardware-extensions)
 
 **Funtions**
 * codeSeen() : use it to find command
@@ -63,4 +65,3 @@ There are files to interact with FluxSDK:
 > 1 [COMMNAD] [PARAMETER] [COMMNAD] [PARAMETER] *[CHECKSUM]
 
 > 1 OK [RETURN_VALUE] *[CHECKSUM]
-
